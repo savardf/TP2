@@ -1,0 +1,22 @@
+C:\Documents and Settings\awdal001\Bureau\Cours\Prog_gestion\prog_gestionH15\ASP_net\TP2\TP2\bin\TP2.dll
+C:\Documents and Settings\awdal001\Bureau\Cours\Prog_gestion\prog_gestionH15\ASP_net\TP2\TP2\bin\TP2.pdb
+C:\Documents and Settings\awdal001\Bureau\Cours\Prog_gestion\prog_gestionH15\ASP_net\TP2\TP2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\awdal001\Bureau\Cours\Prog_gestion\prog_gestionH15\ASP_net\TP2\TP2\obj\Debug\TP2.dll
+C:\Documents and Settings\awdal001\Bureau\Cours\Prog_gestion\prog_gestionH15\ASP_net\TP2\TP2\obj\Debug\TP2.pdb
+C:\Documents and Settings\awdal001\Bureau\Cours\Prog_gestion\prog_gestionH15\ASP_net\TP2\TP2\TP2\bin\TP2.dll
+C:\Documents and Settings\awdal001\Bureau\Cours\Prog_gestion\prog_gestionH15\ASP_net\TP2\TP2\TP2\bin\TP2.pdb
+C:\Documents and Settings\awdal001\Bureau\Cours\Prog_gestion\prog_gestionH15\ASP_net\TP2\TP2\TP2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\awdal001\Bureau\Cours\Prog_gestion\prog_gestionH15\ASP_net\TP2\TP2\TP2\obj\Debug\TP2.dll
+C:\Documents and Settings\awdal001\Bureau\Cours\Prog_gestion\prog_gestionH15\ASP_net\TP2\TP2\TP2\obj\Debug\TP2.pdb
+E:\CEGEP\420-329-SF prog_gestion\prog_gestionH16\ASP_net\TP2\TP2\TP2\bin\TP2.dll.config
+E:\CEGEP\420-329-SF prog_gestion\prog_gestionH16\ASP_net\TP2\TP2\TP2\bin\TP2.dll
+E:\CEGEP\420-329-SF prog_gestion\prog_gestionH16\ASP_net\TP2\TP2\TP2\bin\TP2.pdb
+E:\CEGEP\420-329-SF prog_gestion\prog_gestionH16\ASP_net\TP2\TP2\TP2\obj\Debug\TP2.csprojResolveAssemblyReference.cache
+E:\CEGEP\420-329-SF prog_gestion\prog_gestionH16\ASP_net\TP2\TP2\TP2\obj\Debug\TP2.dll
+E:\CEGEP\420-329-SF prog_gestion\prog_gestionH16\ASP_net\TP2\TP2\TP2\obj\Debug\TP2.pdb
+C:\Users\savar\OneDrive\CEGEP\Programmation en Gestion\TP\TP2\TP2\bin\TP2.dll.config
+C:\Users\savar\OneDrive\CEGEP\Programmation en Gestion\TP\TP2\TP2\bin\TP2.dll
+C:\Users\savar\OneDrive\CEGEP\Programmation en Gestion\TP\TP2\TP2\bin\TP2.pdb
+C:\Users\savar\OneDrive\CEGEP\Programmation en Gestion\TP\TP2\TP2\obj\Debug\TP2.csprojResolveAssemblyReference.cache
+C:\Users\savar\OneDrive\CEGEP\Programmation en Gestion\TP\TP2\TP2\obj\Debug\TP2.dll
+C:\Users\savar\OneDrive\CEGEP\Programmation en Gestion\TP\TP2\TP2\obj\Debug\TP2.pdb
