@@ -10,15 +10,15 @@
 namespace TP2 {
     
     
-    public partial class _Default {
+    public partial class _default {
         
         /// <summary>
-        /// Contrôle form1.
+        /// Contrôle Login1.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Login Login1;
     }
 }
