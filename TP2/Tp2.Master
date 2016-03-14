@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Tp2.master.cs" Inherits="TP2.Tp2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <link href="Style.css" rel="stylesheet" />
+    
+    <title><asp:Literal ID="litTitre" runat="server" /></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="page" style="border-style:solid;width:730px;margin-left:auto;margin-right:auto;">
+        <asp:Image ID="imgTop" runat="server" AlternateText="Logo" Height="50px" 
+        ImageUrl="~/image.jpg" Width="50px" />        
+        <div id="nomCo"><h1>3 Fred et 1 François Enr.</h1></div>
+        <div id="link">
+            <asp:HyperLink ID="lnkProfil" runat="server" NavigateUrl="profil.aspx">Votre Profil</asp:HyperLink> <asp:LinkButton ID="lbDeconnecter" runat="server">Se Déconnecter</asp:LinkButton></div>    
+        <h1><asp:ContentPlaceHolder ID="Titre" runat="server"/></h1>
+
+        <div class="main"><asp:ContentPlaceHolder ID="Contenu" runat="server" >        
+        
+        </asp:ContentPlaceHolder>
+        </div>
+    <div class="footer"><p style="width:250px;"><%=DateTime.Now.ToString("dd-MM-yyyy")%></p></div>
+    </div>
+        </form>
+</body>
+</html>
