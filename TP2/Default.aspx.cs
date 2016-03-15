@@ -16,15 +16,25 @@ namespace TP2
                 BDGestionStages bd = new BDGestionStages();
                
                 Administrateur a = bd.GetAdministrateur();
+                Stagiaire sta = bd.GetStagiaire(Convert.ToInt32(this.Session["ClientId"]));
+                Superviseur sup = bd.GetSuperviseur(Convert.ToInt32(this.Session["ClientId"]));
 
                 if (a!=null)
                 {
                     this.Response.Redirect("~/Administration.aspx");
                 }
+                
+                else if (sta != null)
+                {
+                   
+                    this.Response.Redirect("~/Stage.aspx");
+                   
+                }
                 else
                 {
-                    this.Response.Redirect("~/Profil.aspx");
+                    this.Response.Redirect("~/ProfilSuperviseur.aspx");
                 }
+               
 
             }
             LoginUser.RememberMeSet = true;
@@ -65,7 +75,7 @@ namespace TP2
                     this.Response.Redirect("~/Administration.aspx");
                 }
             }    
-            if (st != null)   
+            else if (st != null)   
             {
                 if (st.MotDePasse == LoginUser.Password)
                 {
@@ -73,7 +83,7 @@ namespace TP2
                     this.Response.Redirect("~/Stage.aspx");
                 }
             }  
-            if (su != null)
+            else if (su != null)
             {
                 if (su.MotDePasse == LoginUser.Password)
                 {
