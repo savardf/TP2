@@ -24,7 +24,7 @@
         
         </asp:ContentPlaceHolder>
         </div>
-    <div class="footer"><p style="width:250px;"><%=DateTime.Now.ToString("dd-MM-yyyy")%></p></div>
+    <div class="footer"><p >Copyright Les productions FFFF&#39;s - 2016. Nous sommes le : <%=DateTime.Now.ToString("dd-MM-yyyy")%></p></div>
     </div>
         </form>
 </body>
