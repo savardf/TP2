@@ -9,5 +9,6 @@
     <LoginButtonStyle BackColor="White" BorderColor="#C5BBAF" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#1C5E55" />
     <TextBoxStyle Font-Size="0.8em" />
     <TitleTextStyle BackColor="Orange" Font-Bold="True" Font-Size="0.9em" ForeColor="White" />
-</asp:Login>
+    
+</asp:Login><p id="msgErreur" runat="server" style="color: #FF0000" ></p>
 </asp:Content>

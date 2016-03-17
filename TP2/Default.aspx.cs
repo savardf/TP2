@@ -67,35 +67,34 @@ namespace TP2
             Administrateur a = bd.GetAdministrateur();
             Stagiaire st = bd.GetStagiaire(LoginUser.UserName);  
             Superviseur su = bd.GetSuperviseur(LoginUser.UserName);
-            if (a != null)
+            if (a != null || st != null||su != null)
             {
-                if (a.MotDePasse == LoginUser.Password)
+                if (LoginUser.Password==a.MotDePasse)
                 {
                     this.Session["ClientId"] = a.Id;
                     this.Response.Redirect("~/Administration.aspx");
                 }
-            }    
-            else if (st != null)   
-            {
-                if (st.MotDePasse == LoginUser.Password)
+                else if(su!=null)
+                {
+                    if (LoginUser.Password==su.MotDePasse)
+                    {
+                        this.Session["ClientId"] = su.Id;
+                        this.Response.Redirect("~/ProfilSuperviseur.aspx");
+                    }   
+                }
+               
+                else if (LoginUser.Password==st.MotDePasse  )
                 {
                     this.Session["ClientId"] = st.Id;
                     this.Response.Redirect("~/Stage.aspx");
                 }
-            }  
-            else if (su != null)
-            {
-                if (su.MotDePasse == LoginUser.Password)
-                {
-                    this.Session["ClientId"] = su.Id;
-                    this.Response.Redirect("~/ProfilSuperviseur.aspx");
-                }
+             
+                
+            
+                
             }
     
-            else
-            {
-                this.Response.Redirect("~/noAccess.aspx");
-            }
+           
             
         }
     }
