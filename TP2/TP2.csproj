@@ -71,7 +71,6 @@
     </Content>
     <Content Include="default.aspx" />
     <Content Include="image.jpg" />
-    <Content Include="noAccess.aspx" />
     <Content Include="ProfilSuperviseur.aspx" />
     <Content Include="Stage.aspx" />
     <Content Include="Style.css" />
@@ -100,13 +99,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>GestionStages.dbml</DependentUpon>
-    </Compile>
-    <Compile Include="noAccess.aspx.cs">
-      <DependentUpon>noAccess.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="noAccess.aspx.designer.cs">
-      <DependentUpon>noAccess.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProfilSuperviseur.aspx.cs">
       <DependentUpon>ProfilSuperviseur.aspx</DependentUpon>

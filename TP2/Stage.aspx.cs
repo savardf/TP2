@@ -11,7 +11,17 @@ namespace TP2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            BDGestionStages bd = new BDGestionStages();
+            Stagiaire c = bd.GetStagiaire((int)this.Session["ClientId"]);
+            this.lilnomUser.Text = c.Nom;
+           
 
         }
+
+        protected void LinqDataSource1_Selecting(object sender, LinqDataSourceSelectEventArgs e)
+        {
+
+        }
+
     }
 }

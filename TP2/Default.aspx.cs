@@ -82,20 +82,16 @@ namespace TP2
                         this.Response.Redirect("~/ProfilSuperviseur.aspx");
                     }   
                 }
-               
-                else if (LoginUser.Password==st.MotDePasse  )
+                else if (st!=null)
                 {
-                    this.Session["ClientId"] = st.Id;
-                    this.Response.Redirect("~/Stage.aspx");
+                    if (LoginUser.Password==st.MotDePasse)
+                    {
+                        this.Session["ClientId"] = st.Id;
+                        this.Response.Redirect("~/Stage.aspx");
+                    }
                 }
-             
-                
-            
-                
+              
             }
-    
-           
-            
         }
     }
 }
