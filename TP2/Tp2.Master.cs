@@ -12,16 +12,17 @@ namespace TP2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
-        
+
+
             var NomPage = Path.GetFileName(Request.FilePath);
 
-            if (NomPage.ToUpper() != "DEFAULT.ASPX" && NomPage.ToUpper() != "ACCESNONAUTHO1.ASPX")
-            {               
+            if (NomPage.ToUpper() != "DEFAULT.ASPX")
+            {
                 if (this.Session["ClientId"] == null)
                 {
-                    this.Response.Redirect("~/noAccess.aspx");
+                    this.Response.Redirect("~/default.aspx");
                 }
+                
             }
         }
 
@@ -30,5 +31,6 @@ namespace TP2
             this.Session.Abandon();
             this.Response.Redirect("~/");
         }
+
     }
 }

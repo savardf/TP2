@@ -17,13 +17,14 @@
         ImageUrl="~/image.jpg" Width="50px" />        
         <div id="nomCo"><h1>3 Fred et 1 François Enr.</h1></div>
         <div id="link">
-            <asp:LinkButton ID="lbDeconnecter" runat="server" OnClick="lbDeconnecter_Click">Se Déconnecter</asp:LinkButton></div>    
+            <asp:LinkButton ID="lbLogoff" runat="server" OnClick="lbDeconnecter_Click" CausesValidation="false">Se Déconnecter</asp:LinkButton>
         <h1><asp:ContentPlaceHolder ID="Titre" runat="server"/></h1>
-
+        </div>
         <div class="main"><asp:ContentPlaceHolder ID="Contenu" runat="server" >        
         
         </asp:ContentPlaceHolder>
         </div>
+    
     <div class="footer"><p >Copyright Les productions FFFF&#39;s - 2016. Nous sommes le : <%=DateTime.Now.ToString("dd-MM-yyyy")%></p></div>
     </div>
         </form>
